@@ -35,9 +35,9 @@ Route::get('/profil_visi&misi', function () {
     return view('profil_visi&misi');
 });
 
-Route::get('/bidang', function () {
-    return view('bidang');
-});
+// Route::get('/bidang', function () {
+//     return view('bidang');
+// });
 
 Route::get('/sekretariat', function () {
     return view('sekretariat');
@@ -63,13 +63,10 @@ Route::get('/informasi_potensi_daerah', function () {
     return view('informasi_potensi_daerah');
 });
 
-Route::get('/informasi_galeri', function () {
-    return view('informasi_galeri');
-});
 
-Route::get('/media', function () {
-    return view('media');
-});
+// Route::get('/media', function () {
+//     return view('media');
+// });
 
 Route::get('/gambar', function () {
     return view('gambar');

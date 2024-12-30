@@ -29,6 +29,9 @@
                 scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap
             </main>
         </x-layout_profil>
+
+        <x-footer/>
 </body>
+
 
 </html>

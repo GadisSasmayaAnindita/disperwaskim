@@ -67,7 +67,7 @@
         <table>
             <tr>
                 <td><strong>Alamat Email</strong></td>
-                <td>pusdatin.dprkp@jakarta.go.id</td>
+                <td>disperwaskim.kotatasik@tasik.go.id</td>
             </tr>
             <tr>
                 <td><strong>No. Tlp</strong></td>

@@ -32,6 +32,8 @@
                 software like Aldus PageMaker including versions of Lorem Ipsum.
             </main>
         </x-layout_profil>
+
+        <x-footer/>
 </body>
 
 </html>
