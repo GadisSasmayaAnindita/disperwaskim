@@ -192,7 +192,7 @@
         <div class="text-white mt-20">
             <h1 class="text-3xl font-bold" data-aos="zoom-in">Berita Terkini</h1>
         </div>
-        <div class="container mx-auto mt-10 grid justify-items-end  ">
+        <div class="container mx-auto mt-10 grid justify-items-end " data-aos="fade-up" data-aos-duration="1000">
             <div class="grid grid-cols-1 md:grid-cols-3 gap-6">
                 <div class="bg-white p-6 rounded-lg shadow-lg">
                     <img src="https://via.placeholder.com/300x150" alt="News Image"
@@ -227,28 +227,28 @@
         <div class="mt-20 max-w-6xl mx-auto">
             <h2 class="text-3xl text-center font-bold text-gray-800 mt-8 mb-12" data-aos="zoom-in">Galeri foto</h2>
             <div class="grid grid-cols-2 md:grid-cols-3 gap-4">
-                <div class="h-48 bg-gray-300 flex justify-center items-center" data-aos="fade-right"
-                    data-aos-duration="1000" data-aos-delay="400">
+                <div class="bg-gray-300 flex justify-center items-center" data-aos="fade-right" data-aos-duration="1000" data-aos-delay="400">
+                    <img src="storage/galeri1.jpg" alt="Image 1" class="object-contain max-w-full max-h-full">
                 </div>
-                <div class="h-48 bg-gray-300 flex justify-center items-center" data-aos="fade-right"
-                    data-aos-duration="1000" data-aos-delay="200">
+                <div class="bg-gray-300 flex justify-center items-center" data-aos="fade-right" data-aos-duration="1000" data-aos-delay="200">
+                    <img src="storage/galeri2.jpg" alt="Image 2" class="object-contain max-w-full max-h-full">
                 </div>
-                <div class="h-48 bg-gray-300 flex justify-center items-center" data-aos="fade-right"
-                    data-aos-duration="1000">
+                <div class="bg-gray-300 flex justify-center items-center" data-aos="fade-right" data-aos-duration="1000">
+                    <img src="storage/galeri3.jpg" alt="Image 3" class="object-contain max-w-full max-h-full">
                 </div>
-                <div class="h-48 bg-gray-300 flex justify-center items-center" data-aos="fade-right"
-                    data-aos-duration="1000" data-aos-delay="400">
+                <div class="bg-gray-300 flex justify-center items-center" data-aos="fade-right" data-aos-duration="1000" data-aos-delay="400">
+                    <img src="storage/galeri4.jpg" alt="Image 4" class="object-contain max-w-full max-h-full">
                 </div>
-                <div class="h-48 bg-gray-300 flex justify-center items-center" data-aos="fade-right"
-                    data-aos-duration="1000" data-aos-delay="200">
+                <div class="bg-gray-300 flex justify-center items-center" data-aos="fade-right" data-aos-duration="1000" data-aos-delay="200">
+                    <img src="storage/galeri5.jpg" alt="Image 5" class="object-contain max-w-full max-h-full">
                 </div>
-                <div class="h-48 bg-gray-300 flex justify-center items-center" data-aos="fade-right"
-                    data-aos-duration="1000">
+                <div class="bg-gray-300 flex justify-center items-center" data-aos="fade-right" data-aos-duration="1000">
+                    <img src="storage/galeri6.jpg" alt="Image 6" class="object-contain max-w-full max-h-full">
                 </div>
             </div>
         </div>
     </div>
-
+    
     <!-- Galeri Video -->
     <div class="bg-white p-8">
         <div class="mt-20 max-w-6xl mx-auto">

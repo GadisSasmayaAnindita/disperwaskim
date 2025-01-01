@@ -5,7 +5,7 @@
     <x-layout_informasi>
         {{-- card potensi daerah 1 --}}
         <x-card-layout>
-            <img class="w-full h-[250px] object-fill " src="storage/potensi1.png" alt="Gambar Berita">
+            <img class="w-full h-[250px] object-fill " src="storage/galeri8.jpg" alt="Gambar Berita">
             <div class="p-4">
                 <h2 class="text-[#0D121E] text-xl font-bold mb-2">potensi daerah1</h2>
                 <p class="text-gray-600 text-sm mb-4">Diposting pada: 9 Desember 2024</p>
@@ -17,7 +17,7 @@
     
         {{-- card potensi daerah 2 --}}
         <x-card-layout>
-            <img class="w-full h-[250px] object-fill " src="storage/potensi1.png" alt="Gambar Berita"> 
+            <img class="w-full h-[250px] object-fill " src="storage/galeri7.jpg" alt="Gambar Berita"> 
             <div class="p-4">
                 <h2 class=" text-[#0D121E] text-xl font-bold mb-2">potensi daerah2</h2>
                 <p class="text-gray-600 text-sm mb-4">Diposting pada: 9 Desember 2024</p>

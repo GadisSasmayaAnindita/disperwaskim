@@ -9,7 +9,7 @@
     <x-layout_informasi>
         {{-- card berita 1 --}}
         <x-card-layout>
-            <img class="w-full h-[250px] object-fill" src="storage/berita1.jpg" alt="Gambar Berita">
+            <img class="w-full h-[250px] object-fill" src="storage/galeri1.jpg" alt="Gambar Berita">
             <div class="p-4">
                 <h2 class="text-xl font-bold mb-2 text-[#0D121E]">
                     berita1</h2>
