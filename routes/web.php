@@ -47,8 +47,12 @@ Route::get('/perumahan', function () {
     return view('perumahan');
 });
 
-Route::get('/pertanahan', function () {
-    return view('pertanahan');
+Route::get('/ptd', function () {
+    return view('ptd');
+});
+
+Route::get('/kelompokjabatan', function () {
+    return view('kelompokjabatan');
 });
 
 Route::get('/kawasanpemukiman', function () {

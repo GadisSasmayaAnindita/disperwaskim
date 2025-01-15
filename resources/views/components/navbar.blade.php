@@ -73,8 +73,9 @@
                         <div class="absolute bg-white shadow-lg mt-2 py-2 w-40 dropdown-menu">
                             <a href="/sekretariat" class="block px-4 py-2 text-gray-700 hover:bg-blue-100">Sekretariat</a>
                             <a href="/perumahan" class="block px-4 py-2 text-gray-700 hover:bg-blue-100">Perumahan</a>
-                            <a href="/pertanahan" class="block px-4 py-2 text-gray-700 hover:bg-blue-100">Pertanahan</a>
-                            <a href="/kawasanpemukiman" class="block px-4 py-2 text-gray-700 hover:bg-blue-100">Kawasan Pemukiman</a>
+                            <a href="/kawasanpemukiman" class="block px-4 py-2 text-gray-700 hover:bg-blue-100">Kawasan Permukiman</a>
+                            <a href="/ptd" class="block px-4 py-2 text-gray-700 hover:bg-blue-100">Pelaksana Teknik Dinas</a>
+                            <a href="/kelompokjabatan" class="block px-4 py-2 text-gray-700 hover:bg-blue-100">Kelompok Jabatan</a>
                         </div>
                     </div>
                     <a href="/informasi_berita" id="informasi" class="py-4 px-2 text-gray-500 font-semibold hover:text-blue-500 transition duration-300">
@@ -116,8 +117,9 @@
                 <div id="bidang-dropdown-mobile" class="hidden flex-col px-4 py-2 space-y-2">
                     <a href="/sekretariat" class="block px-4 py-2 text-gray-700 hover:bg-blue-100">Sekretariat</a>
                     <a href="/perumahan" class="block px-4 py-2 text-gray-700 hover:bg-blue-100">Perumahan</a>
-                    <a href="/pertanahan" class="block px-4 py-2 text-gray-700 hover:bg-blue-100">Pertanahan</a>
-                    <a href="/kawasanpemukiman" class="block px-4 py-2 text-gray-700 hover:bg-blue-100">Kawasan Pemukiman</a>
+                    <a href="/kawasanpemukiman" class="block px-4 py-2 text-gray-700 hover:bg-blue-100">Kawasan Permukiman</a>
+                    <a href="/ptd" class="block px-4 py-2 text-gray-700 hover:bg-blue-100">Pelaksana Teknik Dinas</a>
+                    <a href="/kelompokjabatan" class="block px-4 py-2 text-gray-700 hover:bg-blue-100">Kelompok Jabatan</a>
                 </div>
             </div>
             <div>
