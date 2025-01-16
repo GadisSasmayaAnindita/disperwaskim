@@ -40,7 +40,77 @@
         <body>
             <x-navbar></x-navbar>
             <main>
-                <!-- Konten utama di sini -->
+                <div class="bg-white p-8">
+                    <div class="mt-20 max-w-6xl mx-auto">
+                        <h2 class="text-3xl text-center font-bold text-gray-800 mt-8 mb-12">Galeri Foto</h2>
+                        <div class="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4">
+                            <div class="bg-gray-300 flex justify-center items-center relative group">
+                                <img src="storage/galeri1.jpg" alt="Image 1"
+                                    class="object-cover w-full h-full transition-transform duration-300 group-hover:scale-105">
+                                <div
+                                    class="absolute bottom-0 left-0 right-0 bg-black bg-opacity-50 flex justify-center items-center opacity-0 group-hover:opacity-100 transition-opacity duration-300 h-auto py-2">
+                                    <p class="text-white text-sm px-4 truncate">Rapat Koordinasi KATASIK</p>
+                                </div>
+                            </div>
+                            <div class="bg-gray-300 flex justify-center items-center relative group">
+                                <img src="storage/galeri2.jpg" alt="Image 2"
+                                    class="object-cover w-full h-full transition-transform duration-300 group-hover:scale-105">
+                                <div
+                                    class="absolute bottom-0 left-0 right-0 bg-black bg-opacity-50 flex justify-center items-center opacity-0 group-hover:opacity-100 transition-opacity duration-300 h-auto py-2">
+                                    <p class="text-white text-sm px-4 truncate">Kegiatan Sosialisasi Program</p>
+                                </div>
+                            </div>
+                            <div class="bg-gray-300 flex justify-center items-center relative group">
+                                <img src="storage/galeri3.jpg" alt="Image 3"
+                                    class="object-cover w-full h-full transition-transform duration-300 group-hover:scale-105">
+                                <div
+                                    class="absolute bottom-0 left-0 right-0 bg-black bg-opacity-50 flex justify-center items-center opacity-0 group-hover:opacity-100 transition-opacity duration-300 h-auto py-2">
+                                    <p class="text-white text-sm px-4 truncate">Pelatihan Kepemimpinan</p>
+                                </div>
+                            </div>
+                            <div class="bg-gray-300 flex justify-center items-center relative group">
+                                <img src="storage/galeri4.jpg" alt="Image 4"
+                                    class="object-cover w-full h-full transition-transform duration-300 group-hover:scale-105">
+                                <div
+                                    class="absolute bottom-0 left-0 right-0 bg-black bg-opacity-50 flex justify-center items-center opacity-0 group-hover:opacity-100 transition-opacity duration-300 h-auto py-2">
+                                    <p class="text-white text-sm px-4 truncate">Rapat Evaluasi Tahunan</p>
+                                </div>
+                            </div>
+                            <div class="bg-gray-300 flex justify-center items-center relative group">
+                                <img src="storage/galeri5.jpg" alt="Image 5"
+                                    class="object-cover w-full h-full transition-transform duration-300 group-hover:scale-105">
+                                <div
+                                    class="absolute bottom-0 left-0 right-0 bg-black bg-opacity-50 flex justify-center items-center opacity-0 group-hover:opacity-100 transition-opacity duration-300 h-auto py-2">
+                                    <p class="text-white text-sm px-4 truncate">Kegiatan Gotong Royong</p>
+                                </div>
+                            </div>
+                            <div class="bg-gray-300 flex justify-center items-center relative group">
+                                <img src="storage/galeri6.jpg" alt="Image 6"
+                                    class="object-cover w-full h-full transition-transform duration-300 group-hover:scale-105">
+                                <div
+                                    class="absolute bottom-0 left-0 right-0 bg-black bg-opacity-50 flex justify-center items-center opacity-0 group-hover:opacity-100 transition-opacity duration-300 h-auto py-2">
+                                    <p class="text-white text-sm px-4 truncate">Pelayanan Publik Terintegrasi</p>
+                                </div>
+                            </div>
+                            <div class="bg-gray-300 flex justify-center items-center relative group">
+                                <img src="storage/galeri7.jpg" alt="Image 7"
+                                    class="object-cover w-full h-full transition-transform duration-300 group-hover:scale-105">
+                                <div
+                                    class="absolute bottom-0 left-0 right-0 bg-black bg-opacity-50 flex justify-center items-center opacity-0 group-hover:opacity-100 transition-opacity duration-300 h-auto py-2">
+                                    <p class="text-white text-sm px-4 truncate">Rapat Koordinasi Proyek</p>
+                                </div>
+                            </div>
+                            <div class="bg-gray-300 flex justify-center items-center relative group">
+                                <img src="storage/galeri8.jpg" alt="Image 8"
+                                    class="object-cover w-full h-full transition-transform duration-300 group-hover:scale-105">
+                                <div
+                                    class="absolute bottom-0 left-0 right-0 bg-black bg-opacity-50 flex justify-center items-center opacity-0 group-hover:opacity-100 transition-opacity duration-300 h-auto py-2">
+                                    <p class="text-white text-sm px-4 truncate">Acara Penutupan Proyek</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
             </main>
             <x-footer></x-footer>
         </body>

@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Kontak Pusdatin</title>
+    <title>Hubungi Kami</title>
 
     <!-- Leaflet CSS -->
     <link rel="stylesheet" href="https://unpkg.com/leaflet@1.7.1/dist/leaflet.css" />
@@ -61,7 +61,7 @@
         </div>
 
         <!-- Map -->
-        <div id="map" class="map"></div>
+        <div id="map" class="map z-10"></div>
 
         <!-- Kontak Informasi -->
         <table>
@@ -99,17 +99,17 @@
     <script src="https://unpkg.com/leaflet@1.7.1/dist/leaflet.js"></script>
     <script>
         // Inisialisasi Peta
-        var map = L.map('map').setView([-6.1754, 106.8272], 13); // Koordinat Tasikmalaya
-
+        var map = L.map('map').setView([-7.3529629, 108.2289201], 15); // Pusatkan pada lokasi marker
+    
         // Tambahkan layer peta dari OpenStreetMap
         L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
-            maxZoom: 19,
+            maxZoom: 19, // Maksimal zoom yang lebih realistis
             attribution: '© OpenStreetMap contributors'
         }).addTo(map);
-
+    
         // Tambahkan marker di lokasi tertentu
         var marker = L.marker([-7.3529629, 108.2289201]).addTo(map);
-        marker.bindPopup("<b>Disperwaskim</b><br>Tasikmalaya.").openPopup();
-    </script>
+        marker.bindPopup("<b>Disperwaskim</b><br>Tasikmalaya."); // Bind popup tanpa auto open
+    </script>    
 </body>
 </html>

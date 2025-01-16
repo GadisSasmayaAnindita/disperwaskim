@@ -19,8 +19,8 @@
                     Ini adalah ringkasan berita. Konten berita ini memberikan informasi penting dan menarik bagi
                     pembaca.
                 </p>
-                <a href="#"
-                    class="text-blue-500 hover:underline">Baca
+                <a href="/detail-berita" rel="noopener noreferrer"
+                    class="text-blue-500">Baca
                     selengkapnya</a>
             </div>
         </x-card-layout>

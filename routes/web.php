@@ -83,3 +83,7 @@ Route::get('/video', function () {
 Route::get('/hubungikami', function () {
     return view('hubungikami');
 });
+
+Route::get('/detail-berita', function () {
+    return view('detail-berita');
+});

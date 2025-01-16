@@ -143,16 +143,26 @@
     <script>
         const menuToggle = document.getElementById('menu-toggle');
         const mobileNav = document.getElementById('mobile-nav');
-
+    
+        // Handle mobile menu toggle
         menuToggle.addEventListener('click', () => {
             mobileNav.classList.toggle('open');
         });
-
+    
+        // Handle dropdown toggle for mobile
         function toggleDropdown(id) {
             const dropdown = document.getElementById(id);
             dropdown.classList.toggle('hidden');
         }
+    
+        // Reset mobile navigation on window resize
+        window.addEventListener('resize', () => {
+            if (window.innerWidth >= 768) { // Threshold for md: in Tailwind (768px)
+                mobileNav.classList.remove('open'); // Close the mobile navigation
+            }
+        });
     </script>
+    
 </body>
 
 </html>
