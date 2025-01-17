@@ -120,42 +120,6 @@
         </div>
     </div>
 
-
-    {{-- <!-- Slider -->
-    <div class="bg-white-500 text-[#0d121e]">
-        <div class="mt-20 p-8">
-            <div class="relative overflow-hidden max-w-7xl mx-auto">
-                <div id="slider" class="flex transition-transform duration-500 ease-in-out">
-                    <div class="h-96 w-full flex-shrink-0 bg-gray-300 rounded-lg flex items-center justify-center">
-                        <p class="text-black font-bold">Layanan 1</p>
-                    </div>
-                    <div class="h-96 w-full flex-shrink-0 bg-gray-400 flex items-center justify-center">
-                        <p class="text-black font-bold">Layanan 2</p>
-                    </div>
-                    <div class="h-96 w-full flex-shrink-0 bg-gray-500 flex items-center justify-center">
-                        <p class="text-black font-bold">Layanan 3</p>
-                    </div>
-                    <div class="h-96 w-full flex-shrink-0 bg-gray-600 flex items-center justify-center">
-                        <p class="text-black font-bold">Layanan 4</p>
-                    </div>
-                    <div class="h-96 w-full flex-shrink-0 bg-gray-700 flex items-center justify-center">
-                        <p class="text-black font-bold">Layanan 5</p>
-                    </div>
-                </div>
-
-                <!-- Navigasi Slider -->
-                <button id="prev"
-                    class="absolute left-2 top-1/2 transform -translate-y-1/2 bg-white text-blue-500 p-2 rounded-full shadow hover:bg-gray-200">
-                    &lt;
-                </button>
-                <button id="next"
-                    class="absolute right-2 top-1/2 transform -translate-y-1/2 bg-white text-blue-500 p-2 rounded-full shadow hover:bg-gray-200">
-                    &gt;
-                </button>
-            </div>
-        </div>
-    </div> --}}
-
     <!-- Tentang Dinas -->
     <div class="bg-white-300 p-8">
         <div class="bg-white-500 flex flex-col sm:flex-row  mt-12 rounded-lg shadow-md max-w-4xl mx-auto relative"

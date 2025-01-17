@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Hubungi Kami</title>
+    <title>Hubungi Kami - Disperwaskim</title>
 
     <!-- Leaflet CSS -->
     <link rel="stylesheet" href="https://unpkg.com/leaflet@1.7.1/dist/leaflet.css" />
@@ -108,7 +108,7 @@
         }).addTo(map);
     
         // Tambahkan marker di lokasi tertentu
-        var marker = L.marker([-7.3529629, 108.2289201]).addTo(map);
+        var marker = L.marker([-7.3533418, 108.2287896,]).addTo(map);
         marker.bindPopup("<b>Disperwaskim</b><br>Tasikmalaya."); // Bind popup tanpa auto open
     </script>    
 </body>

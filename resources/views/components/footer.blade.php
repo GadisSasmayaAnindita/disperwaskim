@@ -4,10 +4,9 @@
         /* Remove underline from links */
     }
 
-    footer a:hover {
+    /* footer a:hover {
         text-decoration: underline;
-        /* Underline on hover */
-    }
+    } */
 </style>
 
 <footer class="bg-blue-700 text-white mt-20 py-6">
